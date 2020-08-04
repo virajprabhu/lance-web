@@ -1,0 +1,6 @@
+@article{prabhu2020adaclue,
+  title={It takes two to tango: Towards theory of ai's mind},
+  author={Prabhu, Viraj and Chandrasekaran, Arjun and Saenko, Kate and Hoffman, Judy},
+  journal={arXiv preprint arXiv:aaaa},
+  year={2020}
+}

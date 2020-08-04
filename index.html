@@ -1,0 +1,274 @@
+<script src="http://www.google.com/jsapi" type="text/javascript"></script> 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+	body {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight:300;
+		font-size:18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+	}
+	
+	h1 {
+		font-size:32px;
+		font-weight:300;
+	}
+	
+	.disclaimerbox {
+		background-color: #eee;		
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+		padding: 20px;
+	}
+
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #208799;
+	}
+	
+	td.dl-link {
+		height: 160px;
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		        15px 15px 0 0px #fff, /* The fourth layer */
+		        15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		        20px 20px 0 0px #fff, /* The fifth layer */
+		        20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		        25px 25px 0 0px #fff, /* The fifth layer */
+		        25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+	
+	.vert-cent {
+		position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	
+	hr
+	{
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+</style>
+
+<html>
+  <head>
+		<title>Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings</title>
+  </head>
+
+  <body>
+    <br>
+          <center>
+          	<span style="font-size:32px">Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings</span>
+	  		  <table align=center width=600px>
+	  			  <tr>
+	  	              <td align=center>
+	  					<center>
+	  						<span style="font-size:20px"><a href="https://virajprabhu.github.io/">Viraj Prabhu</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+	  						<span style="font-size:20px"><a href="https://www.is.mpg.de/person/achandrasekaran">Arjun Chandrasekaran</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+	  						<span style="font-size:20px"><a href="https://www.bu.edu/cs/profiles/saenko/">Kate Saenko</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+	  						<span style="font-size:20px"><a href="https://www.cc.gatech.edu/~judy/">Judy Hoffman</a></span>
+		  		  		</center>
+		  		  	  </td>
+		  		  </tr>
+	  			  <tr>
+		  		  </tr>
+			  </table>
+	  		  <table align=center width=600px>
+	  			  <tr>
+	  	              <td align=center width=120px>
+	  					<center>
+	  						<span style="font-size:24px"><a href='https://arxiv.org/abs/aaaaa'>[Paper]</a></span>
+		  		  		</center>
+		  		  	  </td>
+	  	              <td align=center width=120px>
+	  					<center>
+	  						<span style="font-size:24px"><a href='https://github.com/virajprabhu/active-da-clue'>[GitHub]</a></span><br>
+		  		  		</center>
+		  		  	  </td>
+	  	              <td align=center width=120px>
+	  					<center>
+	  						<span style="font-size:24px"><a href='https://www.youtube.com/watch?v=HjewNBZz00w'>[Video]</a></span><br>
+		  		  		</center>
+		  		  	  </td>
+	  	              <td align=center width=120px>
+	  					<center>
+	  						<span style="font-size:24px"><a href='index.html#video'>[Slides]</a></span><br>
+		  		  		</center>
+		  		  	  </td>
+		  		  	 </tr>
+	  			  <tr>
+			  </table>
+          </center>
+
+          <center>
+  		  <table align=center width=850px>
+  			  <tr>
+  	              <td width=500px>
+  					<center>
+  	                	<img class="round" style="width:600px" src="assets/teaser_simple_new.png"/>
+	  				</center>
+  	              </td>  	              
+                </tr>
+  		  </table>  		  
+  		</center>
+
+          <hr>
+
+  		  <table align=center width=875px>
+	  		  <center><h1>Abstract</h1></center>
+	  		  <tr>
+	  		  	<td>
+					Generalizing deep neural networks to new target domains is critical to their real-world utility. In practice, it may be feasible to get some target data labeled, but to be cost-effective it is desirable to select a subset that is maximally-informative via active learning (AL). In this work, we study the problem of AL under a domain shift. We empirically demonstrate how existing AL approaches based solely on model uncertainty or representative sampling are suboptimal for active domain adaptation. Our algorithm, Active Domain Adaptation via CLustering Uncertainty-weighted Embeddings (ADA-CLUE), i) identifies diverse datapoints for labeling that are both uncertain under the model and representative of unlabeled target data, and ii) leverages the available source and target data for adaptation by optimizing a semi-supervised adversarial entropy loss that is complimentary to our active sampling objective. On standard image classification benchmarks for domain adaptation, ADA-CLUE consistently performs as well or better than competing active adaptation, active learning, and domain adaptation methods across shift severities, model initializations, and labeling budgets. Our code is available at <a href="https://github.com/virajprabhu/active-da-clue">this link</a>.
+	  		    </td>
+	  		  </tr>
+			</table>
+  		  <br>
+		  <hr>
+			
+		<table align=center width=490px>
+	 		<center><h1>Paper and Supplementary Material</h1></center>
+  			  <tr>
+				  <td><a href="https://arxiv.org/abs/aaaaa"><img class="layered-paper-big" style="height:175px" src="./assets/page1.png"/></a></td>
+				  <td><span style="font-size:14pt">V. Prabhu, A. Chandrasekaran, K. Saenko, J. Hoffman<br>
+				  <b>Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings.</b><br>
+				  (hosted on <a href="https://arxiv.org/abs/aaaa">ArXiv</a>)<br>
+				  <span style="font-size:4pt"><a href=""><br></a>
+				  </span>
+				  </td>
+  	              </td>
+              </tr>
+  		  </table>
+		  <br>
+
+		  <table align=center width=600px>
+			  <tr>
+				  <td><span style="font-size:14pt"><center>
+				  	<a href="./assets/bibtex_adaclue.txt">[Bibtex]</a>
+  	              </center></td>
+              </tr>
+  		  </table>
+
+  		  <hr>
+
+  		  <table align=center width=700px>
+	  		  <center><h1>Method overview</h1></center>
+  			  <tr>
+  	              <td align=center width=700px>
+  					<center>
+						  <td><img class="round" style="width:800px" src="./assets/adaclue-gif2.gif"/></td>
+	  		  		</center>
+			  </tr>
+		  </center>
+		  </table>
+		  <br>
+		  <hr>
+        <center><h1>Video</h1></center>
+        <p align="center">
+		<iframe id="video" width="660" height="395" src="https://drive.google.com/file/d/1mkBGtHmq1hq-SQSoKptHbr5BF_lyZIGP/preview" frameborder="0" allow="autoplay;" allowfullscreen align="center"></iframe></p>
+
+  		  <table align=center width=800px>
+			  <br>
+			  <tr><center>
+				<span style="font-size:28px">&nbsp;<a href='https://drive.google.com/file/d/1b5vOPMmKHWmLr2eYza3CZEELYcKakExj/view?usp=sharing'>[Slides]</a>
+		  </table>
+        <hr>
+
+ 		<center><h1>Code</h1></center>
+
+  		  <table align=center width=420px>
+		  	<center>
+		  		<tr>
+		  			<td>
+		  				<b>ImageNet Classification (shift-invariance vs accuracy)</b>
+		  			</td>
+		  		</tr>
+		  </center>
+		  </table>
+  		  <table align=center width=400px>
+  			  <tr>
+  	              <td align=center width=400px>
+  					<center>
+						  <td><img class="round" style="width:450px" src="./assets/cs_results.png"/></td>
+	  		  		</center>
+			  </tr>
+		  </table>
+  		  <table align=center width=800px>
+			  <br>
+			  <tr><center>
+				<span style="font-size:28px">&nbsp;<a href='https://github.com/virajprabhu/active-da-clue'>[GitHub]</a>
+		  </table>
+
+      	  <br>
+		  <hr>
+		<br>
+
+              
+</body>
+</html>
+ 
