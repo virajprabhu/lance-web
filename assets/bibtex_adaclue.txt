@@ -1,8 +1,0 @@
-@misc{prabhu2020active,
-      title={Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings}, 
-      author={Viraj Prabhu and Arjun Chandrasekaran and Kate Saenko and Judy Hoffman},
-      year={2020},
-      eprint={2010.08666},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
