@@ -2,7 +2,7 @@
       title={Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation.}, 
       author={Viraj Prabhu and Shivam Khare and Deeksha Kartik and Judy Hoffman},
       year={2020},
-      eprint={2010.08666},
+      eprint={2012.11460},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
