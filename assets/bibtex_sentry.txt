@@ -1,8 +1,7 @@
-@misc{prabhu2020sentry,
-      title={Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation.}, 
-      author={Viraj Prabhu and Shivam Khare and Deeksha Kartik and Judy Hoffman},
-      year={2020},
-      eprint={2012.11460},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{prabhu2021sentry,
+  title={SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation},
+  author={Prabhu, Viraj and Khare, Shivam and Kartik, Deeksha and Hoffman, Judy},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={8558--8567},
+  year={2021}
 }
