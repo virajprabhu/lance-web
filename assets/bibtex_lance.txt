@@ -1,0 +1,8 @@
+@misc{prabhu2023bridging,
+      title={Bridging the Sim2Real gap with CARE: Supervised Detection Adaptation with Conditional Alignment and Reweighting}, 
+      author={Viraj Prabhu and Sriram Yenamandra and Prithvijit Chattopadhyay and Judy Hoffman},
+      year={2023},
+      eprint={2302.04832},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
